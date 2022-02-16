@@ -5,6 +5,9 @@ window.function = function (time, fweight, align, fsize) {
 
   // data
   time = time.value ?? "";
+  fweight = fweight.value ?? "600";
+  align = align.value ?? "center";
+  fsize = fsize.value ?? "20";
 
   let ht = `<!DOCTYPE html>
 <html>
@@ -18,9 +21,9 @@ window.function = function (time, fweight, align, fsize) {
 <style>
 
 #demo {
-font-weight: 600;
-text-align: center;
-font-size: 20px;
+font-weight: ${fweight};
+text-align: ${align};
+font-size: ${fsize}px;
 }
 
 </style>
