@@ -1,0 +1,16 @@
+{
+  "kind": "column",
+  "name": "Customized interaction chart",
+  "description": "",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {
+      "name": "time",
+      "displayName": "Time",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
