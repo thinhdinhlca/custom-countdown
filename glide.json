@@ -23,6 +23,16 @@
       "name": "fsize",
       "displayName": "Font size (default to 20 - unit: px)",
       "type": "number"
+    },
+    {
+      "name": "width",
+      "displayName": "Width (in percentage) of the element compared to the viewport width (default to 100)",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "displayName": "Height (in percentage) of the element compared to the viewport height (default to 100)",
+      "type": "number"
     }
   ],
   "result": {
