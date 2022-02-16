@@ -6,8 +6,23 @@
   "params": [
     {
       "name": "time",
-      "displayName": "Time",
+      "displayName": "Ending time",
       "type": "string"
+    },
+    {
+      "name": "fweight",
+      "displayName": "Font weight (default to 600)",
+      "type": "number"
+    },
+    {
+      "name": "align",
+      "displayName": "Text align (default to center - accept left, right & justify)",
+      "type": "string"
+    },
+    {
+      "name": "fsize",
+      "displayName": "Font size (default to 20 - unit: px)",
+      "type": "number"
     }
   ],
   "result": {
