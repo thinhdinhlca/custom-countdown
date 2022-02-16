@@ -37,6 +37,13 @@ color: white;
 }
 }
 
+@media (prefers-color-scheme: light) {
+
+#demo {
+color: black;
+}
+}
+
 </style>
 <script>
 // Set the date we're counting down to
