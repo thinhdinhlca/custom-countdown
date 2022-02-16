@@ -1,13 +1,15 @@
 // https://www.chartjs.org/
 
 
-window.function = function (time, fweight, align, fsize) {
+window.function = function (time, fweight, align, fsize, width, height) {
 
   // data
   time = time.value ?? "";
   fweight = fweight.value ?? "600";
   align = align.value ?? "center";
   fsize = fsize.value ?? "20";
+  width = width.value ?? "100";
+  height = height.value ?? "100";
 
   let ht = `<!DOCTYPE html>
 <html>
@@ -24,6 +26,8 @@ window.function = function (time, fweight, align, fsize) {
 font-weight: ${fweight};
 text-align: ${align};
 font-size: ${fsize}px;
+width: ${width}vw;
+height: ${height}vh;
 }
 
 </style>
