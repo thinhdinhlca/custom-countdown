@@ -30,6 +30,13 @@ width: ${width}vw;
 height: ${height}vh;
 }
 
+@media (prefers-color-scheme: dark) {
+
+#demo {
+color: white;
+}
+}
+
 </style>
 <script>
 // Set the date we're counting down to
