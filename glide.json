@@ -26,12 +26,12 @@
     },
     {
       "name": "width",
-      "displayName": "Width in px of the element (default to 100)",
+      "displayName": "Width in percentage of the element compared to viewing port (default to 100)",
       "type": "number"
     },
     {
       "name": "height",
-      "displayName": "Height in px of the element (default to 100)",
+      "displayName": "Height in percentage of the element compared to viewing port (default to 100)",
       "type": "number"
     }
   ],
