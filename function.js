@@ -26,8 +26,8 @@ window.function = function (time, fweight, align, fsize, width, height) {
 font-weight: ${fweight};
 text-align: ${align};
 font-size: ${fsize}px;
-width: ${width}px;
-height: ${height}px;
+width: ${width}vw;
+height: ${height}vh;
 }
 
 @media (prefers-color-scheme: dark) {
